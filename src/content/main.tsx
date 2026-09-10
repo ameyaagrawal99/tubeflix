@@ -31,7 +31,7 @@ function refresh() {
   try {
     model = adapter.extract(document, new URL(location.href));
   } catch (error) {
-    console.warn("[YouTube Cinematic] Native fallback enabled after adapter error.", error);
+    console.warn("[TubeFlix] Native fallback enabled after adapter error.", error);
     model = {
       route: detectRoute(new URL(location.href)),
       title: "YouTube",
@@ -72,5 +72,5 @@ async function start() {
 
 void start().catch((error) => {
   document.documentElement.classList.remove("cine-yt-active", "cine-route-watch");
-  console.error("[YouTube Cinematic] The extension could not start.", error);
+  console.error("[TubeFlix] The extension could not start.", error);
 });

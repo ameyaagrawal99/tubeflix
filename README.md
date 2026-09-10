@@ -4,8 +4,6 @@ TubeFlix is a personal Manifest V3 Chrome extension that gives desktop YouTube a
 
 It is a presentation layer, not a replacement for YouTube: TubeFlix does not use a recommendation API, run a backend, collect analytics, or export user data.
 
-![TubeFlix browse view](outputs/qa-evidence/home-1440x1000.png)
-
 ## What it does
 
 - Reframes supported YouTube pages with a dark cinematic header, billboard, rails, ranked Top 10 cards, and details modal.

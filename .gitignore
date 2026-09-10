@@ -3,6 +3,7 @@ dist/
 work/
 outputs/*.zip
 outputs/youtube-cinematic-extension-*/
+outputs/tubeflix-extension-*/
 outputs/qa-evidence/
 playwright-report/
 test-results/
