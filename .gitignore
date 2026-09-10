@@ -1,0 +1,9 @@
+node_modules/
+dist/
+work/
+outputs/*.zip
+outputs/youtube-cinematic-extension-*/
+outputs/qa-evidence/
+playwright-report/
+test-results/
+.DS_Store
